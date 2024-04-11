@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="cz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>generování hesla</title>
+    <script src="script.js"></script>
+</head>
+<body>
+   
+<div class="all_elements">
+    <h1 class="output">loading...</h1>
+    <br>
+    <button class="btn">Generování</button>
+    <br>
+    <button class="btn" onclick="ret()">zpátky</button>
+</div>
+ 
+<!-- CSS styles  -->
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to top, #2b2d30, #263246, #22365b, #253870, #333783) no-repeat fixed;
+    }
+    /*  */
+    .all_elements {
+        margin-top: 10rem;
+        text-align: center;
+ 
+    }
+    /*  */
+    .output {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 3.5rem;
+        color: white;
+    }
+    .btn {
+    padding: 10px 20px;
+    background: none;
+    color: rgb(184, 184, 166);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px 0px 10px 0px;
+    transition: all 1s;
+  }
+  
+  .btn:hover {
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgb(184, 184, 166);
+
+  }
+</style>
+ 
+</body>
+</html>

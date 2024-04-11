@@ -1,0 +1,121 @@
+* {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(to bottom, #201e23, #2d2241, #392661, #442883, #4e29a6) no-repeat center/cover fixed;
+    color:rgb(184, 184, 166);
+}
+.main_text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 69px;
+}
+.text_email {
+    text-align: center;
+    margin-right: 150px;
+}
+.text_heslo {
+    text-align: center;
+    margin-right: 150px;
+    outline: none;
+}
+.input1, .input2 {
+    text-align: center;
+}
+.heslo, .email {
+    text-align: center;
+    color: white;
+    background: none;
+    border:none;
+    outline:none;
+}
+.new {
+    border: 1px solid white;
+    border-radius: 10px;
+    background: none;
+    color:white;
+    outline: none;
+}
+.heslo {
+    margin-bottom: 20px;
+}
+.odkaz {
+    display: block;
+    text-align: center;
+}
+.generate {
+    color:rgb(184, 184, 166);
+    text-decoration: overline;
+    border-radius: 5px;
+    padding: 0.2rem;
+    transition: all 555ms;
+}
+.generate:hover {
+    color: rgb(184, 184, 166);
+}
+.buttonO {
+    text-align: center;
+}
+.all_form {
+    justify-content: center;
+}
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .form_group {
+    text-align: center;
+    margin: 15px 0px 20px 0px ;
+  }
+  .register_text {
+    text-align: center;
+    font-size: 40px;
+    text-decoration: overline;
+    margin: 20px 0px 20px 0px;
+  }
+  label {
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    margin: 0px 5px 0px 5px;
+    padding: 10px 20px;
+    background: none;
+    color: rgb(184, 184, 166);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 1s;
+  }
+  
+  .btn:hover {
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgb(184, 184, 166);
+  }
+    .edit {
+        text-align: center;
+        font-size: 10px;
+        color:black
+    }
+  
+/* úkoly */
+/* uspesne prihlaseni => hra  */
+/* local storage na tohle HTML */
